@@ -29,3 +29,22 @@ Libraries used were `Plots` and `Noise` for Plotting graphs and introducing nois
     final params: (1.6641170444045876, 0.020556864365351625, 0.0002609854087531852), loss: 0.00021225693481259639, initial params: (0, 0, 0), error function: 7, step size: 1.0e-30
 
 \* - Step Size not stored.
+
+## Scraping Mookit with Bs4
+
+This scraper is based on the fact that you can copy HTML Code from your HelloIITK Course.  
+To do so, Go to the Course Page of the course and open `Inspect Element` (Ctrl+Shift+I).  
+Right-Click on the `<body>` tag and select `Edit as HTML`.  
+Copy all the contents (Ctrl+A) and paste them in [input.html](./Scraping/input.html).  
+Run `python scraper_bs4.py` and Enter relevant details asked, which are:
+
+- Number of Latest Lectures to analyse
+- Link to your course's page (Copy-Paste the link only, as this scripts modifies the original path)
+
+Your course details which include:
+
+- Index of Lecture (1-indexing followed)
+- Duration of Lecture
+- Week of Lecture
+- Lecture Name
+- Link to the Lecture Page (on Mookit)
