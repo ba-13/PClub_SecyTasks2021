@@ -13,7 +13,7 @@ Libraries used were `Plots` and `Noise` for Plotting graphs and introducing nois
 ### Best estimates (Not a good measure to compare error functions though)
 
 - Linear Regression
-  Original Function: 3x+4
+  Original Function: `3x+4` (No Noise included)
 
   - Cubic Error Function:  
     final params: (3.1855654780384737, 4.049053086683707), loss: 1.1737328953775124e-8, initial params: (0, 4), error function: 3 _\*_
@@ -21,11 +21,11 @@ Libraries used were `Plots` and `Noise` for Plotting graphs and introducing nois
     final params: (3.0349490000000494, 0.060098000000039446), loss: 0.45500299999503113, initial params: (0, 0), error function: 1, step size: 1.0e-6
 
 - Polynomial Regression
-  Original Function: 2x²+3.6x+4.5
+  Original Function: `2x²+3.6x+4.5` + Gaussian Noise (stddev = 1000)
 
   - Fourth Power Error Function:  
-    final params: (2.0360512590738673, 0.030346234384101382, 0.0004756004902345417), loss: 0.8224581171799286, initial params: (0, 0, 0), error function: 4, step size: 1.0e-17
+    final params: (1.847817797005682, 0.028828337506882587, 0.00048012740462221513), loss: 0.11337892676676484, initial params: (0, 0, 0), error function: 4, step size: 1.0e-17
   - Seventh Power Error Function:  
-    final params: (2.3511610277618087, 0.829923854026342, 0.3077725997535397), loss: 0.06645167983891893, initial params: (0, 0, 0), error function: 7, step size: 1.0e-10
+    final params: (1.6641170444045876, 0.020556864365351625, 0.0002609854087531852), loss: 0.00021225693481259639, initial params: (0, 0, 0), error function: 7, step size: 1.0e-30
 
 \* - Step Size not stored.
