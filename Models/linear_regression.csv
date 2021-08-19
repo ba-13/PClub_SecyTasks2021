@@ -1,0 +1,16 @@
+final params: (3.194617876930867, 3.0493530150445407), loss: 0.0007834614490604941, initial params: (0, 3), error function: 3
+final params: (3.2250373380517163, 0.05034527541035969), loss: 0.00011945325390949573, initial params: (0, 0), error function: 3
+final params: (3.1855654780384737, 4.049053086683707), loss: 1.1737328953775124e-8, initial params: (0, 4), error function: 3
+final params: (3.205638979761268, 2.049707097306274), loss: 1.08535458220405e-6, initial params: (0, 2), error function: 3
+final params: (3.198148938391466, 2.7494652129435933), loss: 5.917876437794123e-5, initial params: (0, 2.7), error function: 3
+final params: (3.2769344778963125, 2.7507796517901792), loss: 0.0002329274486375249, initial params: (0, 2.7), error function: 3
+final params: (3.3556451991553056, 2.7529341952336197), loss: 0.0009584756067065944, initial params: (0, 2.7), error function: 3
+final params: (3.3743255000000065, 0.06830100000004764), loss: 0.9252003219478411, initial params: (0, 0), error function: 1
+final params: (3.3556451991553056, 2.7529341952336197), loss: 0.0009584756067065944, initial params: (0, 2.7), error function: 3
+final params: (3.3743255000000065, 0.06830100000004764), loss: 0.9252003219478411, initial params: (0, 0), error function: 1
+final params: (3.3377559964832058, 2.754097213835755), loss: 0.0003493227387229815, initial params: (0, 2.7), error function: 3
+final params: (3.3170589747900605, 2.7530475378339996), loss: 9.816744738675046, initial params: (0, 2.7), error function: 3
+final params: (3.3170589747900605, 2.7530475378339996), loss: 9.816744738675046, initial params: (0, 2.7), error function: 3, step size: 1.0e-10
+final params: (2.9910564193827485, 2.7402212580566956), loss: 9.996046390490958, initial params: (0, 2.7), error function: 3, step size: 1.0e-13
+final params: (3.0349490000000494, 0.060098000000039446), loss: 0.45500299999503113, initial params: (0, 0), error function: 1, step size: 1.0e-6
+final params: (3.0349490000000494, 0.060098000000039446), loss: 0.45500299999503113, initial params: (0, 0), error function: 1, step size: 1.0e-6
